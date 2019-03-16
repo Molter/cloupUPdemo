@@ -22,7 +22,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: False
-    projects: './CloudUpDemo.csproj'
+    projects: 'CloudUPDemo.sln'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: True
     
